@@ -1,0 +1,81 @@
+#body {
+    background-color: rgb(12, 68, 85);
+}
+
+@media (max-width: 576px) {
+    img {
+        display: flex;
+        width: 150px;
+        height: auto;
+    }
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#BVA2 {
+    width: 800px;
+    height: auto;
+    padding: 10px;
+}
+
+h2 {
+    color:rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    padding: 10px;
+}
+
+#home {
+    border: solid 3px rgb(255, 255, 255);
+}
+/* Website Footer and Email Icon */
+
+h3 {
+    text-align: center;
+}
+
+p {
+    border: solid 2px rgb(12, 68, 85);
+    color:rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    text-align: justify;
+    max-width: 775px;
+    margin: auto;
+    padding-bottom: 10px;
+}
+
+footer {
+    background-color: rgb(12, 68, 85);
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 50px;
+    padding: 7px;
+}
+
+/* Sticky Footer Settings */
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.content {
+    min-height: 100%;
+}
+
+.content-inside {
+    padding: 20px;
+    padding-bottom: 50px;
+}
+
+.footer {
+    height: -50px;
+    margin-top: 50px;
+}
+
