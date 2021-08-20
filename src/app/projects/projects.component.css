@@ -23,25 +23,37 @@
 }
 
 #FIRSTWEB {
-    width: 800px;
+    width: 1100px;
     height: auto;
     padding: 10px;
 }
 
 #POSTIT {
-    width: 800px;
+    width: 1100px;
     height: auto;
     padding: 10px;
 }
 
 #STATETAX {
-    width: 800px;
+    width: 1100px;
     height: auto;
     padding: 10px;
 }
 
 #STATETAX2 {
-    width: 800px;
+    width: 1100px;
+    height: auto;
+    padding: 10px;
+}
+
+#IONIC {
+    width: 400px;
+    height: auto;
+    padding: 10px;
+}
+
+#IONIC-DESKTOP {
+    width: 1100px;
     height: auto;
     padding: 10px;
 }
@@ -120,6 +132,17 @@ li {
 }
 
 .statetax {
+    border: solid 2px rgb(12, 68, 85);
+    color:rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    text-align: justify;
+    max-width: 1765px;
+    margin: auto;
+
+}
+
+.ionic {
     border: solid 2px rgb(12, 68, 85);
     color:rgb(255, 255, 255);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
