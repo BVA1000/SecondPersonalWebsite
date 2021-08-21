@@ -33,13 +33,61 @@ h2 {
 h4 {
     color:rgb(255, 255, 255);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 40px;
-    text-align: justify;
+    font-size: 30px;
+    text-align: center;
     padding: 10px;
 }
 
 #home {
-    border: solid 3px rgb(255, 255, 255);
+    border: solid 3px rgb(12, 68, 85);
+    /*border: solid 3px rgb(255, 255, 255);*/
+}
+
+form {
+    text-align: center;
+    margin: 5px;
+    padding: 10px;
+}
+
+input {
+    background-color: rgb(12, 68, 85);
+    border: solid 2px rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    height: 2.5em;
+    width: 27em;
+    margin: 10px;
+}
+
+::placeholder {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+textarea {
+    background-color: rgb(12, 68, 85);
+    border: solid 2px rgb(255, 255, 255);
+    color:rgb(255, 255, 255);
+    text-align: justify;
+    margin-top: 25px;
+    padding: 10px;
+    width: 30em;
+    height: 7em;
+}
+
+button {
+    background-color: rgb(12, 68, 85);
+    border: solid 2px rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 12em;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+button:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(12, 68, 85);
 }
 /* Website Footer and Email Icon */
 
